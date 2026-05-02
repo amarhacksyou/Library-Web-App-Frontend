@@ -36,15 +36,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-gray-600 dark:text-gray-400 text-sm">
                 <span>📞</span>
-                <a href="tel:+916201179442" className="hover:text-blue-600 dark:hover:text-white transition-colors">+91 6201179442</a>
+                <a href="tel:+918434190090" className="hover:text-blue-600 dark:hover:text-white transition-colors">+91 8434190090</a>
               </li>
               <li className="flex items-start gap-3 text-gray-600 dark:text-gray-400 text-sm">
                 <span>✉️</span>
-                <a href="mailto:siddhantkumar7488@gmail.com" className="hover:text-blue-600 dark:hover:text-white transition-colors">siddhantkumar7488@gmail.com</a>
+                <a href="mailto:amarkantreal@gmail.com" className="hover:text-blue-600 dark:hover:text-white transition-colors">amarkantreal@gmail.com</a>
               </li>
               <li className="flex items-start gap-3 text-gray-600 dark:text-gray-400 text-sm">
                 <span>📍</span>
-                <span>Hazaribagh, Jharkhand, India</span>
+                <span>Dhanbad, Jharkhand, India</span>
               </li>
             </ul>
           </div>
@@ -55,7 +55,7 @@ const Footer = () => {
             <div className="flex gap-4">
               {/* GitHub */}
               <a 
-                href="https://github.com/Siddhantkr19/" 
+                href="https://github.com/amarhacksyou" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-200 dark:bg-white/5 flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-white/20 hover:text-black dark:hover:text-white transition-all border border-gray-300 dark:border-white/10"
@@ -65,7 +65,7 @@ const Footer = () => {
 
               {/* LinkedIn */}
               <a 
-                href="https://www.linkedin.com/in/siddhantkumar19/" 
+                href="https://www.linkedin.com/in/amarkantreal/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-200 dark:bg-white/5 flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-blue-600 hover:text-blue-600 dark:hover:text-white transition-all border border-gray-300 dark:border-white/10"
