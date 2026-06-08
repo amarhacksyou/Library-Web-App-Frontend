@@ -5,7 +5,7 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
 
-The official **User Interface** for the Hazaribagh Library Management System. This Single Page Application (SPA) allows students to discover study centers, view dynamic pricing offers (₹350 vs ₹400), and manage their seat subscriptions.
+The official **User Interface** for the Bokaro Library Management System. This Single Page Application (SPA) allows students to discover study centers, view dynamic pricing offers (₹350 vs ₹400), and manage their seat subscriptions.
 
 > **Note:** This is the Frontend repository. The Backend API (Spring Boot) can be found [here](LINK_TO_YOUR_BACKEND_REPO).
 
@@ -44,7 +44,7 @@ Make sure you have **Node.js** (v18 or higher) installed.
 ### 2. Clone and Install
 ```bash
 # Clone the repository
-git clone [https://github.com/your-username/hazaribagh-library-frontend.git](https://github.com/your-username/hazaribagh-library-frontend.git)
+git clone [https://github.com/your-username/bokaro-library-frontend.git](https://github.com/your-username/bokaro-library-frontend.git)
 
 # Navigate into the folder
 cd library-frontend
