@@ -171,7 +171,7 @@ const formattedImages = formData.images.map(imgUrl => ({ imageUrl: imgUrl }));
              </div>
              <div>
                <label className={labelClass}>Location Tag</label>
-               <input required name="locationTag" value={formData.locationTag} onChange={handleChange} className={inputClass} placeholder="e.g. Matwari" />
+               <input required name="locationTag" value={formData.locationTag} onChange={handleChange} className={inputClass} placeholder="e.g. Chas" />
              </div>
           </div>
 

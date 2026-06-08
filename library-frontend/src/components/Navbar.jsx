@@ -45,7 +45,7 @@ const Navbar = () => {
               </span>
               {/* ✅ Text Color: Dark Gray (Light) / White (Dark) */}
        <span className="text-[10px] font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent dark:text-white uppercase tracking-widest leading-none mt-1">
-  Hazaribagh
+  Bokaro
 </span>
             </div>
           </Link>

@@ -146,10 +146,10 @@ const WelcomeOffer = () => {
               <div className="space-y-3">
                 <h3 className="font-bold text-gray-900 dark:text-white flex items-center gap-2 text-sm border-b pb-2 dark:border-gray-700 uppercase tracking-wide">
                   <Info className="w-4 h-4 text-blue-500" />
-                  1. About LibHub Service
+                  1. About BookLibrary Service
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed text-justify">
-                  <strong>LibHub (Hazaribagh Libraries)</strong> acts as a digital aggregator connecting students with premium private study centers in Matwari, Korrah, and Babu Gaon. We provide a platform for discovery, booking, and payment management. We are not the owners of the physical library infrastructure but facilitate the reservation process.
+                  <strong>BookLibrary (Bokaro Libraries)</strong> acts as a digital aggregator connecting students with premium private study centers in Chas, Sector 04, and Sector 02. We provide a platform for discovery, booking, and payment management. We are not the owners of the physical library infrastructure but facilitate the reservation process.
                 </p>
               </div>
 
@@ -160,7 +160,7 @@ const WelcomeOffer = () => {
                   2. Promotional Offer Details
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed text-justify">
-                  The "Welcome Offer" is applicable strictly for <strong>first-time users</strong> registering on the LibHub platform.
+                  The "Welcome Offer" is applicable strictly for <strong>first-time users</strong> registering on the BookLibrary platform.
                 </p>
                 <ul className="list-disc list-outside pl-5 space-y-1 text-sm text-gray-600 dark:text-gray-300">
                     <li><strong>Base Subscription Fee:</strong> ₹400 per month.</li>
@@ -204,7 +204,7 @@ const WelcomeOffer = () => {
                   4. User Conduct & Rights
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed text-justify">
-                  While LibHub confirms your booking, the library owner reserves the <strong>Right to Admission</strong>. Students must adhere to the library's specific rules (silence, cleanliness, timing). Violation of rules may lead to subscription cancellation without refund.
+                  While BookLibrary confirms your booking, the library owner reserves the <strong>Right to Admission</strong>. Students must adhere to the library's specific rules (silence, cleanliness, timing). Violation of rules may lead to subscription cancellation without refund.
                 </p>
               </div>
 

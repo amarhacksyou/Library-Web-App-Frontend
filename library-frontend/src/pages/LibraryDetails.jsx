@@ -83,7 +83,7 @@ const LibraryDetails = () => {
                 <div className="rounded-3xl overflow-hidden shadow-2xl border border-gray-200 dark:border-gray-700 h-96 relative group">
                 <img src={mainImage} alt={library.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute top-4 left-4 bg-white/90 dark:bg-black/60 backdrop-blur-md px-4 py-1 rounded-full text-sm font-bold border border-gray-200 dark:border-white/10 text-gray-900 dark:text-white shadow-lg">
-                    📍 {library.locationTag || "Hazaribagh"}
+                    📍 {library.locationTag || "Bokaro"}
                 </div>
                 </div>
                 {library.images && library.images.length > 1 && (

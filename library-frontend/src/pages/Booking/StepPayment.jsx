@@ -32,7 +32,7 @@ const StepPayment = () => {
         key: "rzp_live_RzPFjSSMCXY7aV", // Replace with your key
         amount: orderData.amountPaid * 100,
         currency: "INR",
-        name: "LibHub",
+        name: "BookLibrary",
         description: `Seat at ${library.name}`,
         order_id: orderData.razorpayOrderId,
         handler: async function (response) {
@@ -143,7 +143,7 @@ const StepPayment = () => {
         </button>
 
         <p className="mt-4 text-[10px] text-gray-400 dark:text-gray-500 text-center flex items-center justify-center gap-1">
-             <Lock size={10} /> Powered by LibHub Secure
+             <Lock size={10} /> Powered by BookLibrary Secure
         </p>
     </div>
   );

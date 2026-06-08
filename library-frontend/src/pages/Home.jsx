@@ -63,7 +63,7 @@ const Home = () => {
     return data.map(lib => ({
         id: lib.id,
         name: lib.name,
-        location: lib.locationTag || lib.address || "Hazaribagh", 
+        location: lib.locationTag || lib.address || "Bokaro", 
        // FIX 1: Keep the variable names consistent with Backend/DTO
         offerPrice: lib.offerPrice,      // Was 'price'
         originalPrice: lib.originalPrice, // Was 'oldPrice'
@@ -124,7 +124,7 @@ const Home = () => {
         <div className="absolute inset-0 z-0 bg-gray-900 ">
           <img 
             src="Background Image.webp" 
-            alt="Hazaribagh Study Center" // ✅ FIX 2: Add 'loading="eager"' to force browser to prioritize this image
+            alt="Bokaro Study Center" // ✅ FIX 2: Add 'loading="eager"' to force browser to prioritize this image
              loading="eager"
              fetchPriority="high"
             className="w-full h-full object-cover brightness-100 transition-opacity duration-700 opacity-100 "
@@ -145,7 +145,7 @@ const Home = () => {
             </h1>
 
             <p className="max-w-2xl text-lg text-gray-200 font-medium mb-8 drop-shadow-md mx-auto lg:mx-0">
-              Join 1000+ students booking the best private libraries in Hazaribagh.
+              Join 1000+ students booking the best private libraries in Bokaro.
             </p>
             <div className="w-full max-w-xl mx-auto lg:mx-0">
               <LibrarySearch onSearch={handleSearchResults} />
@@ -198,7 +198,7 @@ const Home = () => {
                     ) : (
                         <div className="col-span-3 text-center py-10 bg-gray-50 dark:bg-white/5 rounded-2xl border border-dashed border-gray-300 dark:border-white/20">
                             <p className="text-xl text-gray-500 dark:text-gray-400">No libraries found.</p>
-                            <p className="text-sm text-gray-400 dark:text-gray-500 mt-2">Try searching for "Matwari", "Korrah" or a different price.</p>
+                            <p className="text-sm text-gray-400 dark:text-gray-500 mt-2">Try searching for "Chas", "Sector 04" or a different price.</p>
                         </div>
                     )}
                 </div>
@@ -212,7 +212,7 @@ const Home = () => {
         <div className="flex justify-between items-end mb-8">
           <div>
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Trending Libraries</h2>
-            <p className="text-gray-600 dark:text-gray-400 mt-1">Most popular among students in Hazaribagh</p>
+            <p className="text-gray-600 dark:text-gray-400 mt-1">Most popular among students in Bokaro</p>
           </div>
             
           <Link to="/libraries" className="text-blue-600 dark:text-blue-400 font-bold hover:underline">View All &rarr;</Link>

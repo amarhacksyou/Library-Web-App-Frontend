@@ -27,7 +27,7 @@ const BookingLayout = () => {
         const formatted = {
            id: data.id,
            name: data.name,
-           location: data.locationTag || "Hazaribagh",
+           location: data.locationTag || "Bokaro",
            image: data.images?.[0] || "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=2070&auto=format&fit=crop",
            rating: 4.8,
            // ✅ FIX: Apply the cleaner function here

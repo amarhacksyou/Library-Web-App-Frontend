@@ -8,7 +8,7 @@ const LibrarySearch = ({ onSearch, setLoading }) => {
   const [internalLoading, setInternalLoading] = useState(false); // Local loading for the button
 
   // 1. Define lists for both tabs
-  const popularLocations = ['Matwari', 'Korrah', 'Babu Gaon'];
+  const popularLocations = ['Chas', 'Sector 04', 'Sector 02'];
   const popularPrices = ['400', '500', '600'];
 
   // 2. Main Search Handler
@@ -87,7 +87,7 @@ const LibrarySearch = ({ onSearch, setLoading }) => {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onKeyPress={handleKeyPress}
-          placeholder={activeTab === 'location' ? "Search 'Matwari', 'Korrah'..." : "Enter max price (e.g. 400)"}
+          placeholder={activeTab === 'location' ? "Search 'Chas', 'Sector 04'..." : "Enter max price (e.g. 400)"}
           className="w-full py-3 px-4 text-gray-800 text-sm font-medium outline-none placeholder-gray-400"
         />
 

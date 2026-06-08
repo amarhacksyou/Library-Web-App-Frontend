@@ -70,7 +70,7 @@ const AdminReviews = () => {
       {/* 2. Header & Filters */}
       <div className="flex flex-col md:flex-row justify-between items-center gap-6 bg-white/5 backdrop-blur-xl p-6 rounded-3xl border border-white/10 shadow-2xl">
         <div className="text-center md:text-left">
-          <h2 className="text-3xl font-black text-white tracking-tight">Feedback Hub</h2>
+          <h2 className="text-3xl font-black text-white tracking-tight">Feedback </h2>
           <p className="text-gray-400 text-sm mt-1 font-medium">Manage and moderate student experiences.</p>
         </div>
         

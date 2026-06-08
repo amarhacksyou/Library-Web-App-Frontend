@@ -11,10 +11,10 @@ const Footer = () => {
           {/* COLUMN 1: BRANDING */}
           <div className="space-y-4">
             <h2 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600">
-              LibHub
+              BookLibrary
             </h2>
             <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-              Your gateway to the best study spaces in Hazaribagh. Book your seat, focus better, and achieve your dreams.
+              Your gateway to the best study spaces in Bokaro. Book your seat, focus better, and achieve your dreams.
             </p>
           </div>
 
@@ -44,7 +44,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3 text-gray-600 dark:text-gray-400 text-sm">
                 <span>📍</span>
-                <span>Dhanbad, Jharkhand, India</span>
+                <span>Bokaro, Jharkhand, India</span>
               </li>
             </ul>
           </div>
@@ -82,7 +82,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 dark:text-gray-500">
-          <p>&copy; {new Date().getFullYear()} LibHub. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} BookLibrary. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
              <span className="hover:text-blue-600 dark:hover:text-white cursor-pointer transition-colors">Privacy Policy</span>
              <span className="hover:text-blue-600 dark:hover:text-white cursor-pointer transition-colors">Terms of Service</span>
